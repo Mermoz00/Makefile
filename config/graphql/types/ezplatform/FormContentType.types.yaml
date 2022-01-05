@@ -1,0 +1,14 @@
+FormContentType:
+    type: object
+    inherits:
+        - BaseDomainContentType
+    config:
+        interfaces:
+            - DomainContentType
+        fields:
+            title:
+                type: TextLineFieldDefinition
+                resolve: '@=value.getFieldDefinition("title")'
+            form:
+                type: MatrixFieldDefinition
+                resolve: '@=value.getFieldDefinition("form")'

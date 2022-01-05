@@ -9,6 +9,7 @@ db:
 	touch .env.local
 	echo 'DATABASE_URL="mysql://root:Admin@1234@127.0.0.1:3306/'$(name)'?serverVersion=8.0.26"' > .env.local
 	php bin/console ibexa:install
+	php bin/console ibexa:graphql:generate-schema
 build:
 	php bin/console cache:clear
 	php bin/console assets:install

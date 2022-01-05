@@ -1,0 +1,19 @@
+FormContent:
+    type: object
+    inherits:
+        - AbstractDomainContent
+    config:
+        interfaces:
+            - DomainContent
+            - Node
+        fields:
+            title:
+                type: String
+                resolve: '@=resolver("DomainFieldValue", [value, "title", args])'
+                args:
+                    language: { type: RepositoryLanguage }
+            form:
+                type: String
+                resolve: '@=resolver("DomainFieldValue", [value, "form", args])'
+                args:
+                    language: { type: RepositoryLanguage }

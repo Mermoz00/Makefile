@@ -1,0 +1,12 @@
+{% if menuItems is defined and menuItems is not empty %}
+    {% for item in menuItems %}
+        {% set icon = ez_field_value(item.valueObject.content, 'icon') %}
+        <li><a href="{{ ez_path(item.valueObject) }}">
+                <svg class="ez-icon" width="17" height="17" fill="currentColor">
+                    <use xlink:href="{{ asset('bundles/ezplatformadminui/img/ez-icons.svg') }}#{{ icon.text }}"></use>
+                </svg>
+                {{ ez_content_name(item.valueObject.contentInfo) }}
+            </a>
+        </li>
+    {% endfor %}
+{% endif %}

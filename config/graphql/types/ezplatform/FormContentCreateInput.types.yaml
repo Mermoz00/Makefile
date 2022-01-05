@@ -1,0 +1,8 @@
+FormContentCreateInput:
+    type: input-object
+    config:
+        fields:
+            title:
+                type: String!
+            form:
+                type: String
