@@ -1,6 +1,6 @@
 {% if menuItems is defined and menuItems is not empty %}
     {% for item in menuItems %}
-        {% if (item.valueObject.content) %}
+        {% if (item.valueObject.content is defined and item.valueObject.content is not null ) %}
             {% set icon = ez_field_value(item.valueObject.content, 'icon') %}
         {% else %}
             {% set icon = "bi bi-back" %}
