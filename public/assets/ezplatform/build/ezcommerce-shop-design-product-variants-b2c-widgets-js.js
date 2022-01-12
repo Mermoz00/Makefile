@@ -83,7 +83,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/design/product.variants.js */"./vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/design/product.variants.js");
+module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/design/product.variants.js */"./vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/design/product.variants.js");
 
 
 /***/ })

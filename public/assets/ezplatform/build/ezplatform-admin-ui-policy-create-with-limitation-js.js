@@ -252,7 +252,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-admin-ui/src/bundle/Resources/public/js/scripts/admin.limitation.pick.js */"./vendor/ezsystems/ezplatform-admin-ui/src/bundle/Resources/public/js/scripts/admin.limitation.pick.js");
+module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-admin-ui/src/bundle/Resources/public/js/scripts/admin.limitation.pick.js */"./vendor/ezsystems/ezplatform-admin-ui/src/bundle/Resources/public/js/scripts/admin.limitation.pick.js");
 
 
 /***/ })

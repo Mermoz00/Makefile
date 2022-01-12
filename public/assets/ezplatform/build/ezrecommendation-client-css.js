@@ -18,7 +18,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezrecommendation-client/src/bundle/Resources/public/css/recommendations.css */"./vendor/ezsystems/ezrecommendation-client/src/bundle/Resources/public/css/recommendations.css");
+module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezrecommendation-client/src/bundle/Resources/public/css/recommendations.css */"./vendor/ezsystems/ezrecommendation-client/src/bundle/Resources/public/css/recommendations.css");
 
 
 /***/ })

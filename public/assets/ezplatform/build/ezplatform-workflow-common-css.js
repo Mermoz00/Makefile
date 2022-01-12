@@ -18,7 +18,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/scss/workflow.scss */"./vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/scss/workflow.scss");
+module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/scss/workflow.scss */"./vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/scss/workflow.scss");
 
 
 /***/ })

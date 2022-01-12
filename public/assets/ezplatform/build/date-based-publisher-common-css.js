@@ -18,7 +18,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/date-based-publisher/bundle/Resources/public/scss/date-based-publisher.scss */"./vendor/ezsystems/date-based-publisher/bundle/Resources/public/scss/date-based-publisher.scss");
+module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/date-based-publisher/bundle/Resources/public/scss/date-based-publisher.scss */"./vendor/ezsystems/date-based-publisher/bundle/Resources/public/scss/date-based-publisher.scss");
 
 
 /***/ })

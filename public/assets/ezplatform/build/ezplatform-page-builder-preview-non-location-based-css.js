@@ -29,8 +29,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/scss/page-base-ui.scss */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/scss/page-base-ui.scss");
-module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/scss/timeline-module-ui.scss */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/scss/timeline-module-ui.scss");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/scss/page-base-ui.scss */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/scss/page-base-ui.scss");
+module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/scss/timeline-module-ui.scss */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/scss/timeline-module-ui.scss");
 
 
 /***/ })

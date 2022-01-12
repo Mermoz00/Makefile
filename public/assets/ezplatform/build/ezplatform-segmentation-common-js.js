@@ -115,8 +115,8 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-segmentation/src/bundle/Resources/public/js/add.segment.group.js */"./vendor/ezsystems/ezplatform-segmentation/src/bundle/Resources/public/js/add.segment.group.js");
-module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/public/bundles/ezplatformadminui/js/scripts/button.state.toggle.js */"./public/bundles/ezplatformadminui/js/scripts/button.state.toggle.js");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-segmentation/src/bundle/Resources/public/js/add.segment.group.js */"./vendor/ezsystems/ezplatform-segmentation/src/bundle/Resources/public/js/add.segment.group.js");
+module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/public/bundles/ezplatformadminui/js/scripts/button.state.toggle.js */"./public/bundles/ezplatformadminui/js/scripts/button.state.toggle.js");
 
 
 /***/ })

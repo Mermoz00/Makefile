@@ -7845,12 +7845,12 @@ window.eZ.addConfig('pageBuilder.components.updatePreviewRequestParams', [Update
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-page-builder/src/bundle/ui-dev/src/modules/page.builder.module.js */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/ui-dev/src/modules/page.builder.module.js");
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/infobar.js */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/infobar.js");
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/fieldType/ezlandingpage.js */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/fieldType/ezlandingpage.js");
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/page.builder.publish.js */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/page.builder.publish.js");
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/page.builder.right.sidebar.toggler.js */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/page.builder.right.sidebar.toggler.js");
-module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-segmentation/src/bundle/ui-dev/src/modules/page.builder.update.preview.request.params.js */"./vendor/ezsystems/ezplatform-segmentation/src/bundle/ui-dev/src/modules/page.builder.update.preview.request.params.js");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-page-builder/src/bundle/ui-dev/src/modules/page.builder.module.js */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/ui-dev/src/modules/page.builder.module.js");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/infobar.js */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/infobar.js");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/fieldType/ezlandingpage.js */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/fieldType/ezlandingpage.js");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/page.builder.publish.js */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/page.builder.publish.js");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/page.builder.right.sidebar.toggler.js */"./vendor/ezsystems/ezplatform-page-builder/src/bundle/Resources/public/js/page.builder.right.sidebar.toggler.js");
+module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-segmentation/src/bundle/ui-dev/src/modules/page.builder.update.preview.request.params.js */"./vendor/ezsystems/ezplatform-segmentation/src/bundle/ui-dev/src/modules/page.builder.update.preview.request.params.js");
 
 
 /***/ }),

@@ -27,6 +27,10 @@
 # To get started with security, check out the documentation:
 # https://symfony.com/doc/current/security.html
 security:
+    #enable_authenticator_manager: true
+#    encoders:
+#        App\Entity\User:
+#            algorithm: auto
     # https://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
     providers:
         ezplatform:
@@ -108,3 +112,4 @@ security:
 
             # https://symfony.com/doc/current/security/form_login_setup.html
             #form_login: ~
+

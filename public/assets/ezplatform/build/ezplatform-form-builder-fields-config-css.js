@@ -29,8 +29,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-form-builder/src/bundle/Resources/public/scss/config-form/base.scss */"./vendor/ezsystems/ezplatform-form-builder/src/bundle/Resources/public/scss/config-form/base.scss");
-module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-form-builder/src/bundle/Resources/public/scss/_warning-icon.scss */"./vendor/ezsystems/ezplatform-form-builder/src/bundle/Resources/public/scss/_warning-icon.scss");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-form-builder/src/bundle/Resources/public/scss/config-form/base.scss */"./vendor/ezsystems/ezplatform-form-builder/src/bundle/Resources/public/scss/config-form/base.scss");
+module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-form-builder/src/bundle/Resources/public/scss/_warning-icon.scss */"./vendor/ezsystems/ezplatform-form-builder/src/bundle/Resources/public/scss/_warning-icon.scss");
 
 
 /***/ })

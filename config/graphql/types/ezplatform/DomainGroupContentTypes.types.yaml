@@ -1,0 +1,16 @@
+DomainGroupContentTypes:
+    type: object
+    config:
+        fields:
+            article:
+                type: ArticleContentType
+                resolve: '@=resolver("ContentType", [{"identifier": "article"}])'
+            folder:
+                type: FolderContentType
+                resolve: '@=resolver("ContentType", [{"identifier": "folder"}])'
+            form:
+                type: FormContentType
+                resolve: '@=resolver("ContentType", [{"identifier": "form"}])'
+            landingPage:
+                type: LandingPageContentType
+                resolve: '@=resolver("ContentType", [{"identifier": "landing_page"}])'

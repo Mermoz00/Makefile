@@ -217,8 +217,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/js/workflow.transition.apply.widget.js */"./vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/js/workflow.transition.apply.widget.js");
-module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/js/workflow.admin.dashboard.js */"./vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/js/workflow.admin.dashboard.js");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/js/workflow.transition.apply.widget.js */"./vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/js/workflow.transition.apply.widget.js");
+module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/js/workflow.admin.dashboard.js */"./vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/public/js/workflow.admin.dashboard.js");
 
 
 /***/ })

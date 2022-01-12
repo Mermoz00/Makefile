@@ -35,6 +35,7 @@ Encore.addEntry('welcome_page', [
 ]);
 
 Encore.addEntry('app', './assets/app.js');
+Encore.addStyleEntry('tutorial', [path.resolve(__dirname, './assets/styles/app.css')]);
 
 const projectConfig = Encore.getWebpackConfig();
 module.exports = [ eZConfig, ...customConfigs, projectConfig ];

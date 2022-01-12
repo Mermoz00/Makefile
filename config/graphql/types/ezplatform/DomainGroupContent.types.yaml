@@ -1,0 +1,71 @@
+DomainGroupContent:
+    type: object
+    inherits:
+        - DomainContentTypeGroup
+    config:
+        fields:
+            _types:
+                type: DomainGroupContentTypes
+                resolve: {  }
+            articles:
+                type: ArticleContentConnection
+                description: 'No description available'
+                resolve: '@=resolver("SearchContentOfTypeAsConnection", ["article", args])'
+                argsBuilder: 'Relay::Connection'
+                args:
+                    query: { type: ContentSearchQuery, description: 'A Content query used to filter results' }
+                    sortBy: { type: '[SortByOptions]', description: 'A Sort Clause, or array of Clauses. Add _desc after a Clause to reverse it' }
+            article:
+                type: ArticleContent
+                description: 'No description available'
+                resolve: '@=resolver("DomainContentItem", [args, "article"])'
+                args:
+                    id: { type: Int, description: 'Content ID of the article' }
+                    remoteId: { type: String, description: 'Content remote ID of the article' }
+                    locationId: { type: Int, description: 'Location ID of the article' }
+            folders:
+                type: FolderContentConnection
+                description: 'No description available'
+                resolve: '@=resolver("SearchContentOfTypeAsConnection", ["folder", args])'
+                argsBuilder: 'Relay::Connection'
+                args:
+                    query: { type: ContentSearchQuery, description: 'A Content query used to filter results' }
+                    sortBy: { type: '[SortByOptions]', description: 'A Sort Clause, or array of Clauses. Add _desc after a Clause to reverse it' }
+            folder:
+                type: FolderContent
+                description: 'No description available'
+                resolve: '@=resolver("DomainContentItem", [args, "folder"])'
+                args:
+                    id: { type: Int, description: 'Content ID of the folder' }
+                    remoteId: { type: String, description: 'Content remote ID of the folder' }
+                    locationId: { type: Int, description: 'Location ID of the folder' }
+            forms:
+                type: FormContentConnection
+                description: 'No description available'
+                resolve: '@=resolver("SearchContentOfTypeAsConnection", ["form", args])'
+                argsBuilder: 'Relay::Connection'
+                args:
+                    query: { type: ContentSearchQuery, description: 'A Content query used to filter results' }
+                    sortBy: { type: '[SortByOptions]', description: 'A Sort Clause, or array of Clauses. Add _desc after a Clause to reverse it' }
+            form:
+                type: FormContent
+                description: 'No description available'
+                resolve: '@=resolver("DomainContentItem", [args, "form"])'
+                args:
+                    id: { type: Int, description: 'Content ID of the form' }
+                    remoteId: { type: String, description: 'Content remote ID of the form' }
+                    locationId: { type: Int, description: 'Location ID of the form' }
+            landingPages:
+                type: LandingPageContentConnection
+                resolve: '@=resolver("SearchContentOfTypeAsConnection", ["landing_page", args])'
+                argsBuilder: 'Relay::Connection'
+                args:
+                    query: { type: ContentSearchQuery, description: 'A Content query used to filter results' }
+                    sortBy: { type: '[SortByOptions]', description: 'A Sort Clause, or array of Clauses. Add _desc after a Clause to reverse it' }
+            landingPage:
+                type: LandingPageContent
+                resolve: '@=resolver("DomainContentItem", [args, "landing_page"])'
+                args:
+                    id: { type: Int, description: 'Content ID of the landing_page' }
+                    remoteId: { type: String, description: 'Content remote ID of the landing_page' }
+                    locationId: { type: Int, description: 'Location ID of the landing_page' }

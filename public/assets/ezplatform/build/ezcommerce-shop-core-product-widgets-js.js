@@ -797,10 +797,10 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.js */"./vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.js");
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.variants.js */"./vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.variants.js");
-__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.multi.js */"./vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.multi.js");
-module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/untitled/vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/accordion.js */"./vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/accordion.js");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.js */"./vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.js");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.variants.js */"./vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.variants.js");
+__webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.multi.js */"./vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/product.multi.js");
+module.exports = __webpack_require__(/*! /opt/arithnea/home/devuser/PhpstormProjects/symfonycast/vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/accordion.js */"./vendor/ezsystems/ezcommerce-shop-ui/src/bundle/Resources/public/js/core/accordion.js");
 
 
 /***/ })

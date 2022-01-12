@@ -1,0 +1,6 @@
+blocks:
+  contentlist:
+    views:
+      contentList:
+        template: blocks/contentlist/default.html.twig
+        name: Content List

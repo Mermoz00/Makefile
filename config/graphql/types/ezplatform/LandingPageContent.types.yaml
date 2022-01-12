@@ -1,0 +1,24 @@
+LandingPageContent:
+    type: object
+    inherits:
+        - AbstractDomainContent
+    config:
+        interfaces:
+            - DomainContent
+            - Node
+        fields:
+            name:
+                type: String
+                resolve: '@=resolver("DomainFieldValue", [value, "name", args])'
+                args:
+                    language: { type: RepositoryLanguage }
+            description:
+                type: String
+                resolve: '@=resolver("DomainFieldValue", [value, "description", args])'
+                args:
+                    language: { type: RepositoryLanguage }
+            page:
+                type: Page
+                resolve: '@=resolver("Page", [resolver("DomainFieldValue", [value, "page", args]).value.getPage(), context])'
+                args:
+                    language: { type: RepositoryLanguage }
